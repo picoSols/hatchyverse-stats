@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T11:44:37.262Z",
+ "generated": "2026-11-22T11:44:57.564Z",
  "last_snapshot": "2026-11-22T11:09:18.263Z",
  "snapshots": 2,
  "series": "Day N of posting my game until my dead studio makes $1,000",
@@ -172,25 +172,6 @@
     "likes": 1,
     "comments": 0,
     "shares": 0
-   }
-  },
-  {
-   "day": 2,
-   "date": "2026-11-22",
-   "jokes": [
-    "freeze-frame 'you're probably wondering how I got here'",
-    "the game said NO",
-    "i quit after 1 minute",
-    "more events than my social life",
-    "+3% speed = running from my bills",
-    "level 11, same forest, two times the man"
-   ],
-   "posts": [],
-   "totals": {
-    "views": null,
-    "likes": null,
-    "comments": null,
-    "shares": null
    }
   }
  ],
