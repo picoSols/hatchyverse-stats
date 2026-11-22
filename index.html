@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Hatchyverse Devlog Stats</title>
+<meta name="description" content="Public view, like and follower counts for the Hatchy Rampage daily devlog reels: Day N of posting my game until my dead studio makes $1,000.">
+<meta property="og:title" content="Hatchyverse Devlog Stats">
+<meta property="og:description" content="Day N of posting my game until my dead studio makes $1,000. Every view, counted.">
+<meta property="og:image" content="logo.png">
+<meta name="theme-color" content="#0b5ed7">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-row">
+    <a class="brand" href="./" aria-label="Hatchyverse devlog stats home">
+      <img src="logo.png" alt="" width="44" height="44">
+      <span class="brand-text"><span class="px">HATCHYVERSE</span><span class="brand-sub">devlog stats</span></span>
+    </a>
+    <div class="theme" role="group" aria-label="Colour theme">
+      <button type="button" data-set-theme="light" aria-pressed="false">Light</button>
+      <button type="button" data-set-theme="system" aria-pressed="true">Auto</button>
+      <button type="button" data-set-theme="dark" aria-pressed="false">Dark</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <p class="kicker px" id="day-badge">DAY 1</p>
+    <h1 id="series-title">Day N of posting my game until my dead studio makes $1,000</h1>
+    <p class="muted" id="game-line">Hatchy Rampage: Monster Horde</p>
+  </section>
+
+  <section class="hero card pixel" aria-labelledby="hero-label">
+    <div>
+      <p id="hero-label" class="label">Total views, all platforms</p>
+      <p class="hero-num" id="hero-views">–</p>
+      <p class="muted small" id="updated">Loading…</p>
+    </div>
+    <dl class="hero-stats" id="hero-stats"></dl>
+  </section>
+
+  <section class="callout pixel" id="best" hidden>
+    <img src="logo.png" alt="" width="40" height="40" class="callout-icon">
+    <div>
+      <p class="px callout-title">BEST DAY SO FAR</p>
+      <p id="best-text"></p>
+    </div>
+  </section>
+
+  <h2 class="px h2">PLATFORMS</h2>
+  <section class="platforms" id="platforms"></section>
+
+  <h2 class="px h2">GROWTH</h2>
+  <section class="charts">
+    <figure class="card chart-card">
+      <figcaption>
+        <span class="chart-title">Views over time</span>
+        <span class="muted small">Total views per platform at each snapshot</span>
+      </figcaption>
+      <div class="legend" data-legend="line"></div>
+      <div class="chart" id="chart-views"></div>
+    </figure>
+    <figure class="card chart-card">
+      <figcaption>
+        <span class="chart-title">Followers over time</span>
+        <span class="muted small">Page, channel and account followers</span>
+      </figcaption>
+      <div class="legend" data-legend="line"></div>
+      <div class="chart" id="chart-followers"></div>
+    </figure>
+    <figure class="card chart-card wide">
+      <figcaption>
+        <span class="chart-title">Views per episode</span>
+        <span class="muted small">Latest views for each day's reel, stacked by platform</span>
+      </figcaption>
+      <div class="legend" data-legend="bar"></div>
+      <div class="chart" id="chart-episodes"></div>
+    </figure>
+  </section>
+
+  <h2 class="px h2">EPISODES</h2>
+  <section class="episodes" id="episodes"></section>
+
+  <details class="card table-view">
+    <summary>Table view of the latest numbers</summary>
+    <div class="table-scroll"><table id="table"></table></div>
+  </details>
+</main>
+
+<footer class="wrap foot">
+  <p class="muted small">Public counts only, refreshed daily from each platform. Instagram views appear once Instagram insights are connected. Made by Hatchyverse.</p>
+</footer>
+<div class="tooltip" id="tooltip" role="status" hidden></div>
+</body>
+</html>

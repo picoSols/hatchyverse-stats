@@ -1,0 +1,203 @@
+{
+ "generated": "2026-11-22T11:44:37.262Z",
+ "last_snapshot": "2026-11-22T11:09:18.263Z",
+ "snapshots": 2,
+ "series": "Day N of posting my game until my dead studio makes $1,000",
+ "game": "Hatchy Rampage: Monster Horde",
+ "goal_usd": 1000,
+ "platforms": [
+  "facebook",
+  "youtube",
+  "tiktok",
+  "instagram"
+ ],
+ "profiles": {
+  "facebook": "https://www.facebook.com/profile.php?id=61596521442229",
+  "youtube": "https://www.youtube.com/channel/UCpMZd7r7pzb7EZzSkMY1cSw",
+  "tiktok": "https://www.tiktok.com/@hatchyverse2",
+  "instagram": "https://www.instagram.com/hatchyverse.games/"
+ },
+ "totals": {
+  "facebook": {
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "posts": 1,
+   "followers": 0
+  },
+  "youtube": {
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": null,
+   "posts": 1,
+   "followers": 0
+  },
+  "tiktok": {
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "posts": 1,
+   "followers": 0
+  },
+  "instagram": {
+   "views": null,
+   "likes": 1,
+   "comments": 0,
+   "shares": null,
+   "posts": 1,
+   "followers": 0
+  }
+ },
+ "followers": {
+  "facebook": [
+   {
+    "ts": "2026-11-22T11:05:08.462Z",
+    "value": 0
+   }
+  ],
+  "youtube": [
+   {
+    "ts": "2026-11-22T11:05:08.462Z",
+    "value": 0
+   }
+  ],
+  "tiktok": [
+   {
+    "ts": "2026-11-22T11:05:08.462Z",
+    "value": 0
+   },
+   {
+    "ts": "2026-11-22T11:09:18.263Z",
+    "value": 0
+   }
+  ],
+  "instagram": [
+   {
+    "ts": "2026-11-22T11:05:08.462Z",
+    "value": 0
+   }
+  ]
+ },
+ "views_over_time": [
+  {
+   "ts": "2026-11-22T11:05:08.462Z",
+   "facebook": 0,
+   "youtube": 0,
+   "tiktok": 0,
+   "instagram": null
+  },
+  {
+   "ts": "2026-11-22T11:09:18.263Z",
+   "facebook": 0,
+   "youtube": 0,
+   "tiktok": 0,
+   "instagram": null
+  }
+ ],
+ "episodes": [
+  {
+   "day": 1,
+   "date": "2026-11-22",
+   "jokes": [
+    "a real person = first player ever",
+    "he called me champion, my mom never did",
+    "picked the blue one because he's cheap like me",
+    "MY SON (Driblet)",
+    "only hope / can't pay electricity",
+    "telekinesis can't move my bank account"
+   ],
+   "posts": [
+    {
+     "platform": "facebook",
+     "url": "https://www.facebook.com/reel/1041118625664234/",
+     "posted": "2026-11-22",
+     "latest": {
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saves": null,
+      "avg_watch_s": 0
+     },
+     "updated": "2026-11-22T11:05:08.462Z"
+    },
+    {
+     "platform": "youtube",
+     "url": "https://youtube.com/shorts/APiseSsMazs",
+     "posted": "2026-11-22",
+     "latest": {
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": null,
+      "saves": null,
+      "avg_watch_s": null
+     },
+     "updated": "2026-11-22T11:09:18.263Z"
+    },
+    {
+     "platform": "tiktok",
+     "url": "https://www.tiktok.com/@hatchyverse2/video/7710945227678223623",
+     "posted": "2026-11-22",
+     "latest": {
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0,
+      "avg_watch_s": null
+     },
+     "updated": "2026-11-22T11:09:18.263Z"
+    },
+    {
+     "platform": "instagram",
+     "url": "https://www.instagram.com/hatchyverse.games/reel/DgCoH2iB0Ip/",
+     "posted": "2026-11-22",
+     "latest": {
+      "views": null,
+      "likes": 1,
+      "comments": 0,
+      "shares": null,
+      "saves": null,
+      "avg_watch_s": null
+     },
+     "updated": "2026-11-22T11:05:08.462Z"
+    }
+   ],
+   "totals": {
+    "views": 0,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0
+   }
+  },
+  {
+   "day": 2,
+   "date": "2026-11-22",
+   "jokes": [
+    "freeze-frame 'you're probably wondering how I got here'",
+    "the game said NO",
+    "i quit after 1 minute",
+    "more events than my social life",
+    "+3% speed = running from my bills",
+    "level 11, same forest, two times the man"
+   ],
+   "posts": [],
+   "totals": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null
+   }
+  }
+ ],
+ "best": {
+  "day": 1,
+  "views": 0,
+  "engagement": 1,
+  "joke": "a real person = first player ever"
+ }
+}
