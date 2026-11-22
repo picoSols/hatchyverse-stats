@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-22T11:44:57.564Z",
- "last_snapshot": "2026-11-22T11:09:18.263Z",
- "snapshots": 2,
+ "generated": "2026-11-22T11:47:05.183Z",
+ "last_snapshot": "2026-11-22T11:47:02.418Z",
+ "snapshots": 3,
  "series": "Day N of posting my game until my dead studio makes $1,000",
  "game": "Hatchy Rampage: Monster Horde",
  "goal_usd": 1000,
@@ -19,7 +19,7 @@
  },
  "totals": {
   "facebook": {
-   "views": 0,
+   "views": 2,
    "likes": 0,
    "comments": 0,
    "shares": 0,
@@ -44,7 +44,7 @@
   },
   "instagram": {
    "views": null,
-   "likes": 1,
+   "likes": 2,
    "comments": 0,
    "shares": null,
    "posts": 1,
@@ -56,11 +56,19 @@
    {
     "ts": "2026-11-22T11:05:08.462Z",
     "value": 0
+   },
+   {
+    "ts": "2026-11-22T11:47:02.418Z",
+    "value": 0
    }
   ],
   "youtube": [
    {
     "ts": "2026-11-22T11:05:08.462Z",
+    "value": 0
+   },
+   {
+    "ts": "2026-11-22T11:47:02.418Z",
     "value": 0
    }
   ],
@@ -72,11 +80,19 @@
    {
     "ts": "2026-11-22T11:09:18.263Z",
     "value": 0
+   },
+   {
+    "ts": "2026-11-22T11:47:02.418Z",
+    "value": 0
    }
   ],
   "instagram": [
    {
     "ts": "2026-11-22T11:05:08.462Z",
+    "value": 0
+   },
+   {
+    "ts": "2026-11-22T11:47:02.418Z",
     "value": 0
    }
   ]
@@ -92,6 +108,13 @@
   {
    "ts": "2026-11-22T11:09:18.263Z",
    "facebook": 0,
+   "youtube": 0,
+   "tiktok": 0,
+   "instagram": null
+  },
+  {
+   "ts": "2026-11-22T11:47:02.418Z",
+   "facebook": 2,
    "youtube": 0,
    "tiktok": 0,
    "instagram": null
@@ -115,14 +138,14 @@
      "url": "https://www.facebook.com/reel/1041118625664234/",
      "posted": "2026-11-22",
      "latest": {
-      "views": 0,
+      "views": 2,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saves": null,
       "avg_watch_s": 0
      },
-     "updated": "2026-11-22T11:05:08.462Z"
+     "updated": "2026-11-22T11:47:02.418Z"
     },
     {
      "platform": "youtube",
@@ -136,7 +159,7 @@
       "saves": null,
       "avg_watch_s": null
      },
-     "updated": "2026-11-22T11:09:18.263Z"
+     "updated": "2026-11-22T11:47:02.418Z"
     },
     {
      "platform": "tiktok",
@@ -150,7 +173,7 @@
       "saves": 0,
       "avg_watch_s": null
      },
-     "updated": "2026-11-22T11:09:18.263Z"
+     "updated": "2026-11-22T11:47:02.418Z"
     },
     {
      "platform": "instagram",
@@ -158,18 +181,18 @@
      "posted": "2026-11-22",
      "latest": {
       "views": null,
-      "likes": 1,
+      "likes": 2,
       "comments": 0,
       "shares": null,
       "saves": null,
       "avg_watch_s": null
      },
-     "updated": "2026-11-22T11:05:08.462Z"
+     "updated": "2026-11-22T11:47:02.418Z"
     }
    ],
    "totals": {
-    "views": 0,
-    "likes": 1,
+    "views": 2,
+    "likes": 2,
     "comments": 0,
     "shares": 0
    }
@@ -177,8 +200,8 @@
  ],
  "best": {
   "day": 1,
-  "views": 0,
-  "engagement": 1,
+  "views": 2,
+  "engagement": 2,
   "joke": "a real person = first player ever"
  }
 }
